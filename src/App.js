@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { LoginSignUP } from './Components/LoginSignUp/LoginSignUP';
+import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
 
 
 
 function App() {
   return (
     <div>
-      <LoginSignUP />
+      <LoginSignUp />
     </div>
   );
 }
